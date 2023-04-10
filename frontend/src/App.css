@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background-color: #282c34;
+}
+
+.App-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.App-action {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 1em;
+}
+
+.App-submit {
+  margin-top: 1em;
+  color: white;
+  background-color: #57F287;
+}
+
+.App-table {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 3em;
+}
+
+.App-table > .Combo {
+  margin-bottom: .5em;
+}

@@ -1,0 +1,30 @@
+.Book {
+    display: flex;
+    flex-direction: column;
+}
+
+.Book-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.Book-pages {
+    display: flex;
+    justify-content: center;
+    margin: 1em 0;
+
+}
+
+.Book-page {
+    padding: .5em;
+    background-color: #eee;
+}
+
+.Book-page:not(:last-child) {
+    margin-right: .3em;
+}
+
+.Book-current-page {
+    user-select: none;
+    border: 1px solid #333;
+}

@@ -1,0 +1,15 @@
+.Line {
+    display: flex;
+}
+
+.Line-column {
+    flex: 1;
+    margin-top: 1px;
+    margin-left: 1px;
+    padding: .5em;
+    outline: 1px solid #2C2D2D;
+}
+
+.Line-title {
+    font-weight: bold;
+}

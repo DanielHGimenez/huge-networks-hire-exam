@@ -1,0 +1,19 @@
+.Notification {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1em;
+}
+
+.Notification-item {
+    padding: .5em 1em;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    background-color: red;
+    border-radius: 4px;
+}
+
+.Notification-item:not(:last-child) {
+    margin-bottom: 1em;
+}
